@@ -1,0 +1,40 @@
+var integer = 10;
+var double = 10.12;
+var negetive = -20;
+var binary = 0b01000001;
+var octal = 0o101;
+var hex = 0x41;
+//표기법만 다를 뿐 모두 같은 값
+console.log(binary);
+console.log(octal);
+console.log(hex);
+console.log(binary === octal); //true
+console.log(octal === hex); //true
+//숫자 타입은 모두 실수로 처리됨
+console.log(1 === 1.0); //true
+//숫자 타입의 세 가지 특별한 값
+console.log(10 / 0);
+console.log(10 / -0);
+console.log(1 * 'String');//NaN
+//Template literal
+var template = 'Template literal';
+console.log(template);
+
+var str = 'Hello
+world'; 
+//SyntaxError; Invalid or unexpected token
+
+//escape sequence(white space)
+var template = '<ul\n\t<li><a href="#">Home</a></li>\n</ul>';
+console.log(template);
+//<ul
+// 	<li><a href="#">Home</a></li>
+// </ul>
+var foo = true;
+console.log(foo);
+
+foo = false;
+console.log(foo);
+
+var foo = 'Lee';
+foo = null;
