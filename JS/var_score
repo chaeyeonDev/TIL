@@ -1,0 +1,4 @@
+console.log(score);//defined
+score = 80;//값의 할당(런타임에 실행)
+var score;//변수 선언(런타임 이전에 먼저 실행))
+console.log(score);// 80?? 왜 80인지 설명할 수 있어야 함
