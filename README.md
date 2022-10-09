@@ -1,3 +1,4 @@
 # Today I Learned
-## 식별자 identifier
-### 변수 선언 varaible declaration
+## JavaScript
+<h1>식별자 identifier
+<h2> 변수 선언 varaible declaration
